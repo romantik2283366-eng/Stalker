@@ -40,6 +40,6 @@ public final class StalkerHelper {
 
     public static void playSound(SoundEvent sound, float volume, float pitch) {
         MinecraftClient.getInstance().getSoundManager()
-                .play(PositionedSoundInstance.master(sound, pitch, volume));
+                .play(PositionedSoundInstance.master(sound, volume, pitch));
     }
 }
